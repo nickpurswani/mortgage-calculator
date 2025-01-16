@@ -9,8 +9,6 @@ const CustomInput = ({
   dir,
   symbol,
   value,
-  className,
-  ...props
 }: CustomInputProps) => {
   return (
     <div className={`cursor-pointer w-full  flex flex-col `}>
