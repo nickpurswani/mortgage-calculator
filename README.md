@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mortgage Calculator
+
+This is a Mortgage Calculator application built with Next.js, React, and TypeScript. The application allows users to calculate their monthly mortgage repayments based on the principal amount, annual interest rate, loan term, and type of mortgage.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the project, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd mortgage-calculator
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to see the application in action.
 
-## Learn More
+## Libraries Used
 
-To learn more about Next.js, take a look at the following resources:
+### Next.js
+- **Why:** Next.js is a powerful React framework that enables server-side rendering and static site generation. It provides a great developer experience with features like file-based routing, API routes, and automatic code splitting, which enhances performance.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### React
+- **Why:** React is a popular JavaScript library for building user interfaces. It allows for the creation of reusable UI components, making the development process more efficient and maintainable.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### TypeScript
+- **Why:** TypeScript is a superset of JavaScript that adds static typing. It helps catch errors during development, improves code quality, and enhances the overall developer experience with better tooling and autocompletion.
 
-## Deploy on Vercel
+### Formik
+- **Why:** Formik is a library for building forms in React. It simplifies form handling, validation, and submission, making it easier to manage form state and validation logic.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Yup
+- **Why:** Yup is a JavaScript schema builder for value parsing and validation. It works well with Formik to provide a robust validation mechanism for form inputs, ensuring that user inputs meet specified criteria.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Tailwind CSS
+- **Why:** Tailwind CSS is a utility-first CSS framework that allows for rapid UI development. It provides a set of pre-defined classes that can be composed to create custom designs without leaving the HTML, promoting a consistent design system.
+
+### ESLint
+- **Why:** ESLint is a static code analysis tool for identifying problematic patterns in JavaScript code. It helps maintain code quality and consistency across the project by enforcing coding standards.
+
+### PostCSS
+- **Why:** PostCSS is a tool for transforming CSS with JavaScript plugins. It allows for the use of modern CSS features and optimizations, enhancing the styling capabilities of the application.
+
+## Features
+
+- Calculate monthly mortgage repayments based on user inputs.
+- Support for different mortgage types (e.g., repayment and interest-only).
+- Responsive design for optimal viewing on various devices.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
